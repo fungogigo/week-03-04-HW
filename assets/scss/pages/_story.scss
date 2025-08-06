@@ -36,10 +36,10 @@
 }
 .intro img{
    max-width: 1076px;
-   margin-right: -110px;
    margin-left: -110px;
+   margin-right: -110px;
 }
-@media(max-width:767px){
+@media(max-width:1090px){
     .intro img{ 
         max-width: 100%;
         margin-left: 0;
@@ -63,6 +63,7 @@
 }
 .section-lined a{
     color:$primary-400;
+    text-decoration: underline;
     text-underline-offset:4px;
     display: block;
 }
